@@ -1,7 +1,8 @@
 package polinomioTaylor_Funcoes;
 
 import java.util.Scanner;
-
+//ALTEREI PAE
+//de novo
 public class Euler {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class Euler {
 			n = leitor.nextInt(); // n = 10;
 		} while (n < 0 || n > 10);
 
-		System.out.println("Digite o valor de x para Polinômio e Somatório: ");
+		System.out.println("Digite o valor de x para PolinÃ´mio e SomatÃ³rio: ");
 		x = leitor.nextDouble();
 
 		double somatorio = 0;
@@ -32,7 +33,7 @@ public class Euler {
 
 		System.out.println("Valor Real: " + Math.pow(Math.E, x));
 		System.out.println("Valor Estimado: " + polinomioTaylor);
-		System.out.println("Valor Somatório: " + somatorio);
+		System.out.println("Valor SomatÃ³rio: " + somatorio);
 		System.out.println("Erro Absoluto: " + Math.abs((Math.pow(Math.E, x)) - polinomioTaylor));
 		leitor.close();
 	}
