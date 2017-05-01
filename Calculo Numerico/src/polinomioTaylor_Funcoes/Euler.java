@@ -2,6 +2,7 @@ package polinomioTaylor_Funcoes;
 
 import java.util.Scanner;
 //ALTEREI PAE
+//de novo
 public class Euler {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
